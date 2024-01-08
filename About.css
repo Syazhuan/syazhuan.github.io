@@ -1,0 +1,374 @@
+.mediaViewInfo {
+	--web-view-name: About;
+	--web-view-id: About;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: About;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#About {
+	position: absolute;
+	width: 1920px;
+	height: 3405px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: About;
+	--web-view-id: About;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes  {
+
+
+}
+@keyframes  {
+
+
+}
+@keyframes  {
+
+
+}
+#Path_1 {
+	fill: rgba(169,125,81,1);
+}
+.Path_1 {
+	overflow: visible;
+	position: absolute;
+	width: 481.362px;
+	height: 464.938px;
+	left: 1273.819px;
+	top: 1623.062px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Syazwan_Edited {
+	position: absolute;
+	width: 1189px;
+	height: 669px;
+	left: 893px;
+	top: 1338px;
+	overflow: visible;
+}
+#Ellipse_20 {
+	fill: rgba(41,169,225,1);
+}
+.Ellipse_20 {
+	position: absolute;
+	overflow: visible;
+	width: 377px;
+	height: 364px;
+	left: 185px;
+	top: 2282px;
+}
+#Ellipse_21 {
+	fill: rgba(252,238,33,1);
+}
+.Ellipse_21 {
+	position: absolute;
+	overflow: visible;
+	width: 377px;
+	height: 364px;
+	left: 1299px;
+	top: 2906px;
+}
+#Rectangle_16 {
+	fill: rgba(169,125,81,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_16 {
+	position: absolute;
+	overflow: visible;
+	width: 1022px;
+	height: 415px;
+	left: -62px;
+	top: 2827px;
+}
+#Rectangle_15 {
+	fill: rgba(252,238,33,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_15 {
+	position: absolute;
+	overflow: visible;
+	width: 1022px;
+	height: 415px;
+	left: 954px;
+	top: 2190px;
+}
+#Rectangle_13 {
+	fill: rgba(41,169,225,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_13 {
+	position: absolute;
+	overflow: visible;
+	width: 1022px;
+	height: 729px;
+	left: -23px;
+	top: 1294px;
+}
+#Myself {
+	position: absolute;
+	width: 508px;
+	height: 536px;
+	left: 706px;
+	top: 435px;
+	overflow: visible;
+}
+#Rectangle_2 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_2 {
+	position: absolute;
+	overflow: visible;
+	width: 1022px;
+	height: 209px;
+	left: 449px;
+	top: 947px;
+}
+#My_name_is_Syazwan__Im_current {
+	left: 523px;
+	top: 1007px;
+	position: absolute;
+	overflow: visible;
+	width: 863px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Century Gothic;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	color: rgba(0,0,0,1);
+}
+#Rectangle_11 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_11 {
+	position: absolute;
+	overflow: visible;
+	width: 1022px;
+	height: 415px;
+	left: 50px;
+	top: 2880px;
+}
+#Rectangle_12 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_12 {
+	position: absolute;
+	overflow: visible;
+	width: 1022px;
+	height: 415px;
+	left: 836px;
+	top: 2265px;
+}
+#Rectangle_14 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_14 {
+	position: absolute;
+	overflow: visible;
+	width: 1022px;
+	height: 729px;
+	left: 50px;
+	top: 1359px;
+}
+#STUDIES_-_Eunos_Primary_School {
+	left: 131px;
+	top: 2934px;
+	position: absolute;
+	overflow: visible;
+	width: 785px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Century Gothic;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	color: rgba(0,0,0,1);
+}
+#SKILLS__-_Word_Excel_Powerpoin {
+	left: 954px;
+	top: 2341px;
+	position: absolute;
+	overflow: visible;
+	width: 824px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Century Gothic;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	color: rgba(0,0,0,1);
+}
+#ABOUT_ME__I_love_anything_to_d {
+	left: 168px;
+	top: 1412px;
+	position: absolute;
+	overflow: visible;
+	width: 744px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Century Gothic;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	color: rgba(0,0,0,1);
+}
+#academic-cap-graduation-ceremo {
+	position: absolute;
+	width: 459px;
+	height: 308px;
+	left: 1242px;
+	top: 2934px;
+	overflow: visible;
+}
+#n_00px-Wrench-screwdriver-icon {
+	position: absolute;
+	width: 457px;
+	height: 457px;
+	left: 144px;
+	top: 2183px;
+	overflow: visible;
+}
+#Path_2 {
+	fill: rgba(169,125,81,1);
+}
+.Path_2 {
+	overflow: visible;
+	position: absolute;
+	width: 332.998px;
+	height: 101.881px;
+	left: 1347px;
+	top: 1960.653px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Rectangle_8 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_8 {
+	position: absolute;
+	overflow: visible;
+	width: 956px;
+	height: 138px;
+	left: 174px;
+	top: 138px;
+}
+#ABOUT {
+	left: 327px;
+	top: 175px;
+	position: absolute;
+	overflow: visible;
+	width: 162px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Century Gothic;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	color: rgba(0,0,0,1);
+}
+#PORTFOLIO {
+	left: 530px;
+	top: 175px;
+	position: absolute;
+	overflow: visible;
+	width: 265px;
+	white-space: nowrap;
+	--web-animation: fadein 0.30000001192092896s ease-out;
+	--web-action-type: page;
+	--web-action-target: Portfolio.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Century Gothic;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	color: rgba(0,0,0,1);
+}
+#CONTACT {
+	left: 836px;
+	top: 175px;
+	position: absolute;
+	overflow: visible;
+	width: 237px;
+	white-space: nowrap;
+	--web-animation: fadein 0.30000001192092896s ease-out;
+	--web-action-type: page;
+	--web-action-target: Contact.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Century Gothic;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	color: rgba(0,0,0,1);
+}
+#LOGO {
+	position: absolute;
+	width: 247px;
+	height: 235px;
+	left: 50px;
+	top: 50px;
+	overflow: visible;
+	--web-animation: fadein 0.30000001192092896s ease-out;
+	--web-action-type: page;
+	--web-action-target: index.html;
+	cursor: pointer;
+}
