@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>World Xplore</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+</head>
+
+<body>
+
+    <div class="nav-menu-container">
+        <div class="logo">
+            <svg width="100" height="100">
+                <image x="0" y="0" width="100" height="100" xlink:href="images/WX LOGO.svg" />
+            </svg>
+        </div>
+        <div class="hamburger-menu">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <ul class="nav-menu">
+            <li><a href="index.html">HOME</a></li>
+            <li class="dropdown">
+                <a href="#">PACKAGE TOURS</a>
+                <ul class="dropdown-content">
+                    <li><a href="#">Desert Adventure</a></li>
+                    <li><a href="#">Camel Rodeo</a></li>
+                    <li><a href="#">Inside the History</a></li>
+                </ul>
+            </li>
+            <li><a href="rediscover.html">REDISCOVER SINGAPORE</a></li>
+            <li><a href="#">CRUISES</a></li>
+            <li><a href="contactUs.html">CONTACT US</a></li>
+        </ul>
+    </div>
+
+    <div class="video-background">
+        <video autoplay muted loop playsinline>
+            <source src="videos/Egypt.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <div class="empty-space"></div>
+
+    <div class="content">
+        <!-- Section -->
+        <section class="tourism-articles">
+            <article>
+                <img src="images/sahara desert.jpg" alt="Tourism Article 1">
+                <h2>Sahara Desert</h2>
+                <p>Explore the Sahara Desert's mesmerizing sand dunes, where you can witness the magical play of light
+                    and shadows during sunrise and sunset. Take a guided camel trek across the Sahara and immerse
+                    yourself in Berber culture, enjoying traditional music and stargazing around a campfire.</p>
+            </article>
+
+            <article>
+                <img src="images/camel.jpg" alt="Tourism Article 2">
+                <h2>Camel</h2>
+                <p>Embark on a camel safari to experience the gentle swaying ride of these desert creatures and discover
+                    the unique charm of desert travel. Camels are your trusty travel companions in the arid landscapes,
+                    making your journey unforgettable and comfortable.</p>
+            </article>
+
+            <article>
+                <img src="images/egypt.jpg" alt="Tourism Article 3">
+                <h2>Egypt</h2>
+                <p>Uncover the mysteries of ancient Egypt by visiting the Great Pyramid of Giza, an architectural marvel
+                    that's stood the test of time for over 4,500 years. Marvel at the exquisite hieroglyphics and
+                    intricate wall paintings in the Valley of the Kings and experience a true walk through history.</p>
+            </article>
+        </section>
+    </div>
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 WX Tourism. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const hamburgerMenu = document.querySelector('.hamburger-menu');
+            const navMenu = document.querySelector('.nav-menu');
+    
+            hamburgerMenu.addEventListener('click', function () {
+                navMenu.classList.toggle('active');
+                hamburgerMenu.classList.toggle('active');
+            });
+    
+            // Close the menu when a navigation link is clicked
+            const navLinks = document.querySelectorAll('.nav-menu a');
+            navLinks.forEach(function (link) {
+                link.addEventListener('click', function () {
+                    navMenu.classList.remove('active');
+                    hamburgerMenu.classList.remove('active');
+                });
+            });
+        });
+    </script>
+    
+</body>
+
+</html>

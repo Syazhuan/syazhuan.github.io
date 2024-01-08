@@ -1,0 +1,289 @@
+ul.nav-menu {
+    list-style-type: none;
+    padding: 0;
+    text-align: right;
+    font-family: 'monospace', sans-serif;
+    font-size: 25px;
+    position: relative;
+    right: 10px;
+    top: 10px;
+    z-index: 3;
+}
+
+ul.nav-menu li {
+    display: inline;
+    margin: 0 15px;
+}
+
+
+ul.nav-menu li a {
+    text-decoration: none;
+    color: #FDEB01;
+}
+
+ul.nav-menu li a:hover {
+    color: #4552A4;
+}
+
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 1;
+    margin-bottom: 100px; 
+}
+
+.video-background video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+video::-webkit-media-controls {
+    display: none;
+}
+
+.logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    z-index: 3;
+}
+
+.content {
+    position: relative; 
+    z-index: 2; 
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px; 
+    margin: 100px auto 0;
+    max-width: 800px; 
+}
+
+.empty-space {
+    height: 300px; 
+}
+
+.tourism-articles {
+    display: flex; 
+    justify-content: space-between; 
+}
+
+.tourism-articles article {
+    width: 30%;
+}
+
+.tourism-articles article img {
+    max-width: 100%; 
+    transition: transform 0.3s ease-in-out;
+}
+
+.tourism-articles article img:hover {
+    transform: scale(1.1);
+}
+
+.logo svg {
+    transition: transform 0.3s ease-in-out;
+}
+
+.logo svg:hover {
+    transform: scale(1.1);
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none; 
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    left: 0;
+    top: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dropdown-content li {
+    text-align: left; 
+     
+}
+
+.dropdown:hover .dropdown-content {
+    display: flex; 
+}
+
+.contact-box {
+    position: relative; /* Add this to create a stacking context */
+    z-index: 2; /* Add this to place it above the video */
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #888;
+    color: yellow;
+}
+
+.contact-box label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact-box input[type="text"],
+.contact-box input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.contact-box button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.contact-box button:hover {
+    background-color: #0056b3;
+}
+
+
+.intro-text {
+    text-align: center;
+}
+
+.intro-text h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: red;
+}
+
+.intro-text p {
+    font-size: 18px;
+    color: white;
+}
+
+.image-box {
+            width: 200px;
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid #ccc;
+            text-align: center;
+            float: left;
+        }
+
+        .image {
+            width: 150px;
+            height: 150px;
+            margin: 0 auto;
+        }
+        
+.image-box h2 {
+    color: yellow; 
+} 
+
+.background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; 
+}
+
+@media only screen and (max-width: 768px) {
+
+    .empty-space {
+        height: 100px;  
+    }
+
+    .tourism-articles {
+        display: block; /* Change to block for vertical stacking */
+    }
+
+    .tourism-articles article {
+        width: 100%; /* Take up the full width */
+        margin-bottom: 20px; /* Adjust margin as needed for spacing */
+    }
+
+    .video-background {
+       display: none;
+    }  
+    
+    
+    .nav-menu-container {
+        text-align: center;
+    }
+
+    .logo {
+        margin-bottom: 15px;
+    }
+
+    .nav-menu {
+        padding: 0;
+        list-style: none;
+        display: none; /* Hide the menu by default */
+    }
+
+    .nav-menu.active {
+        display: flex; /* Change to flex to make the items stack vertically */
+        flex-direction: column; /* Stack items in a column */
+        align-items: center; /* Center items horizontally */
+    }
+
+    .nav-menu li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .dropdown-content {
+        display: none;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: flex; 
+    }
+
+    .dropdown-content li {        
+        margin: 10px 0; 
+    }
+
+    /* Hamburger menu styles */
+    .hamburger-menu {
+        display: block;
+        cursor: pointer;
+        margin-top: 10px; /* Adjust margin as needed */
+        float: right;
+    }
+
+    .hamburger-menu div {
+        width: 30px;
+        height: 3px;
+        background-color: black;
+        margin: 6px 0;
+        transition: 0.4s;
+    }
+
+    .hamburger-menu.active div:nth-child(1) {
+        transform: rotate(-45deg) translate(-5px, 6px);
+    }
+
+    .hamburger-menu.active div:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger-menu.active div:nth-child(3) {
+        transform: rotate(45deg) translate(-5px, -6px);
+    }
+}
