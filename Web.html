@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Web Development</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<!--- boxicons link --->
+	<link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!--- remixicons link --->
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+
+    <!--- google fonts link --->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+	<!--- header --->
+	<header>
+		<a href="#" class="logo">
+			<img src="img/logo.png">
+		</a>
+
+		<ul class="navbar">
+			<li><a href="index.html#home">Home</a></li>
+			<li><a href="index.html#about">About</a></li>
+			<li><a href="index.html#portfolio">Portfolio</a></li>
+			<li><a href="index.html#contact">Contact</a></li>
+		</ul>
+
+		<div class="bx bx-menu" id="menu-icon"></div>
+	</header>
+
+	<!--- home --->
+	<section class="home" id="home">
+		<div class="home-text">
+			<h5>HTML, CSS, JS, PHP</h5>
+			<h1>Web <br> Development</h1>
+            <p> Front-end, Back-end development</p><br>
+			<p><a href="index.html#portfolio">Go back</a></p>
+		</div>
+
+		<div class="home-img">
+			<img src="img/web_icon.png">
+		</div>
+	</section>
+
+	<!--- SOI Learning Portal --->
+	<section class="about" id="about">
+		<div class="center">
+			<div class="h-main">
+				<div class="h-text">
+					<h2>SOI Learning Portal</h2>
+				</div>				
+			</div>			
+		</div>
+
+		<div class="about-content">
+			<div class="box">
+                <div class="gallery">
+                    <img src="img/web_soi(smol).jpg" alt="Photo 1" class="gallery-item" onclick="openModal('img/web_soi.jpg')">
+                </div>                         
+			</div>
+
+			<div class="box">
+				<p>Front-end Development: Makes things look good and easy to use on a website.<br><br>Before starting off this assignment, I picked out a theme that would like to fit SOI, orange was the best option to choose. Afterwards, I ensure I knew all the elements that was needed to fit the requirements. </p>
+			</div>			
+
+		</div>
+	</section>
+
+    <!--- Movie Ratings --->
+	<section class="about" id="about">
+		<div class="center">
+			<div class="h-main">
+				<div class="h-text">
+					<h2>Movie Ratings</h2>
+				</div>				
+			</div>			
+		</div>
+
+		<div class="about-content">
+			<div class="box">
+                <div class="gallery">
+                    <img src="img/web_movie(smol).jpg" alt="Photo 1" class="gallery-item" onclick="openModal('img/web_movie.jpg')">
+                </div>
+			</div>
+
+			<div class="box">
+				<p>Back-end Development: Takes care of the behind-the-scenes work, like storing and managing data, to make sure everything runs smoothly on a website.<br><br> As much as possible, I need to ensure that I am able to register, login, all data is consistent, all data is changed when it is required to do so, ensure that everything I am doing on the website is reflected in the database.</p>
+			</div>			
+
+		</div>
+	</section>
+
+	<!-- The Modal -->
+    <div id="myModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImg">
+    </div>
+
+	<div class="end-content">
+		<a href="#home" class="scroll-top">
+			<i class="ri-arrow-up-s-fill"></i>
+		</a>
+
+		<div class="copyright">
+			<p>© 2024 Syazwan. ALL RIGHTS RESERVED</p>
+		</div>
+
+		<div class="copyright">
+			<p>DEVELOPED BY SYAZWAN</p>
+		</div>
+	</div>
+
+	<!--- custom js file link --->
+	<script src="js/script.js"></script>
+
+</body>
+</html>
