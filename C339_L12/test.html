@@ -1,12 +1,25 @@
 <!-- fix : <html> element does not have a [lang] attribute -->
 <html lang="en">
-  <!-- fix : No `<meta name="viewport">` tag found -->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- fix : Document doesn't have a <title> element -->
-<title>Test HTML</title>
+
 <head>
+  <!-- fix : No `<meta name="viewport">` tag found -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Fix: does not have a meta description -->
+  <meta name="description" content="C339_L12 test.html page">
+  <!-- fix : Document doesn't have a <title> element -->
+  <title>Test HTML</title>
+
+  <style>
+    /* Fix: document doesn't use legible font size */
+    body {
+      font-size: 15px;
+    }
+  </style>
+
 </head>
+
 <body>
   Hello World!
 </body>
+
 </html>
